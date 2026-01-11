@@ -367,7 +367,7 @@ const AboutPage = () => {
         description:
           "Staying ahead with cutting-edge technologies and creative problem-solving.",
         color: "from-yellow-500 to-green-500",
-        stats: "10+ Years",
+        stats: "1+ year",
       },
     ],
     []
