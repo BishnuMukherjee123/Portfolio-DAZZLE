@@ -31,3 +31,6 @@ dist-ssr
 
 # Supabase
 supabase/functions/*/deno.lock
+
+.vercel
+.env*.local

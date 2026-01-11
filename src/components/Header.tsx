@@ -131,7 +131,7 @@
     // Memoized spring configurations
     const spring = useMemo(
       () => ({
-        type: "spring",
+        type: "spring" as const,
         stiffness: 500,
         damping: 35,
       }),
@@ -140,7 +140,7 @@
 
     const gentleSpring = useMemo(
       () => ({
-        type: "spring",
+        type: "spring" as const,
         stiffness: 200,
         damping: 30,
       }),
