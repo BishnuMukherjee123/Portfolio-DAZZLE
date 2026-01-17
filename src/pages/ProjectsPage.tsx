@@ -3,7 +3,6 @@ import {
   ExternalLink,
   Github,
   Sparkles,
-  Star,
   Award,
   TrendingUp,
 } from "lucide-react";
@@ -21,7 +20,6 @@ interface Project {
   demoUrl: string;
   githubUrl: string;
   year: string;
-  rating: number;
   users: string;
   growth: string;
 }
@@ -86,14 +84,6 @@ const ProjectCard = memo(
             <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50">
               <span className="text-xs font-semibold text-gray-900 dark:text-white">
                 {project.year}
-              </span>
-            </div>
-
-            {/* Rating Badge */}
-            <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-yellow-500/90 backdrop-blur-sm flex items-center gap-1">
-              <Star className="w-3 h-3 text-white fill-white" />
-              <span className="text-xs font-semibold text-white">
-                {project.rating}
               </span>
             </div>
 
@@ -171,7 +161,6 @@ const PROJECTS_DATA: Project[] = [
     demoUrl: "https://credit-card-default-prediction-cqml.vercel.app/",
     githubUrl: "https://github.com/BishnuMukherjee123/credit-card-default-prediction",
     year: "2025",
-    rating: 5.0,
     users: "Active",
     growth: "New",
   },
@@ -184,7 +173,6 @@ const PROJECTS_DATA: Project[] = [
     demoUrl: "https://dynamic-data-table-manager-rho.vercel.app/",
     githubUrl: "https://github.com/BishnuMukherjee123/Dynamic-Data-Table-Manager",
     year: "2025",
-    rating: 4.9,
     users: "Active",
     growth: "New",
   },
@@ -197,7 +185,6 @@ const PROJECTS_DATA: Project[] = [
     demoUrl: "https://chat-app-five-blush-32.vercel.app/",
     githubUrl: "https://github.com/BishnuMukherjee123/chat-project",
     year: "2025",
-    rating: 4.8,
     users: "Active",
     growth: "New",
   },
@@ -210,7 +197,6 @@ const PROJECTS_DATA: Project[] = [
     demoUrl: "#",
     githubUrl: "#",
     year: "2023",
-    rating: 4.7,
     users: "inactive",
     growth: "+156%",
   },
@@ -223,7 +209,6 @@ const PROJECTS_DATA: Project[] = [
     demoUrl: "https://moviewatching-clone-react-js.vercel.app",
     githubUrl: "https://github.com/BishnuMukherjee123/Netflix-clone-react.js",
     year: "2024",
-    rating: 4.9,
     users: "Active",
     growth: "New",
   },
@@ -236,7 +221,6 @@ const PROJECTS_DATA: Project[] = [
     demoUrl: "#",
     githubUrl: "#",
     year: "2023",
-    rating: 4.8,
     users: "inactive",
     growth: "+198%",
   },
