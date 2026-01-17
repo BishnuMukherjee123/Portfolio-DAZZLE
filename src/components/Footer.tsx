@@ -81,8 +81,8 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: Mail,
-      text: "bishnumukherjee1551@gmail.com",
-      href: "mailto:bishnumukherjee1551@gmail.com",
+      text: "bm908444@gmail.com",
+      href: "mailto:bm908444@gmail.com",
     },
     { icon: Phone, text: "+91 97494 21631", href: "tel:+919749421631" },
     { icon: MapPin, text: "Durgapur, West Bengal", href: "#" },

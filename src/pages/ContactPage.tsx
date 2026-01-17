@@ -108,8 +108,8 @@ const ContactPage = () => {
       {
         icon: Mail,
         label: "Email",
-        value: "bishnumukherjee1551@gmail.com",
-        href: "mailto:bishnumukherjee1551@gmail.com",
+        value: "bm908444@gmail.com",
+        href: "mailto:bm908444@gmail.com",
         color: "from-blue-500 to-cyan-500",
       },
       {
