@@ -115,7 +115,7 @@ const ContactPage = () => {
       {
         icon: Phone,
         label: "Phone",
-        value: "+91 (974) 942-1631",
+        value: "+91 97494 21631",
         href: "tel:+919749421631",
         color: "from-purple-500 to-pink-500",
       },
